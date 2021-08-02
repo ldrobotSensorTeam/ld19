@@ -20,7 +20,11 @@
 /README_en.md
 ```
 
-其中，文件夹`src`包含的是SDK源码，`doc`下是中英文开发手册，`rviz`的内容关于使用rviz进行雷达数据的可视化。
+- `src`包含SDK源码
+
+- `doc`下是中英文开发手册（LD19与LD06手册通用，名称有差异）
+
+- `rviz`的内容是使用rviz进行雷达数据的可视化
 
 本SDK使用Ubuntu18.04下的Melodic以及16.04下的Kinetic测试通过。
 
