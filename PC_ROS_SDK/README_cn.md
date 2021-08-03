@@ -44,7 +44,7 @@ LD19采用ZH1.5T-4P 1.5mm接口。其中PWM信号**可以悬空不接**，此时
 
 ### 软件准备
 
-此SDK需要上位机安装好ROS，推荐使用Ubuntu18.04、16.04，ROS：Melodic、Kinedic。
+此SDK需要上位机安装好ROS，推荐使用Ubuntu18.04、16.04，ROS：Melodic、Kinetic。
 
 整个过程可以使用普通用户来操作，无需以root身份登入。但要确保所使用的用户拥有对应串口的读写权限。
 

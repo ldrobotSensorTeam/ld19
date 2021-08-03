@@ -65,7 +65,7 @@ The two versions of SDK are separately stored in `PC_ROS_SDK`and `SBC_ROS_SDK`, 
 
 **Please read this section with carefulness, the version of your choice could be decisive to the whole process.**
 
-We use names "PC" and "SBC(Single Board Computer)" to indicate the features of the two versions, for the PC version was programmed to search the `CP2102` device, the functions of which are converting the Serial signal to USB and simulating a virtual COM, while the SBC version will directly use the serial on the board.
+We use names "PC" and "SBC(Single Board Computer)" to indicate the features of the two versions, for the PC version was programmed to search the `CP2102` device, the functions of which are converting the UART signal to USB and simulating a virtual COM, while the SBC version will directly use the serial on the board.
 
 Owing to the fact that most of PC do not have any Serial port, extra hardware(CP2102) is needed. On the contrary, SBCs like Raspberry Pi are equipped with Serial peripheral,  radar can be linked to the board through GPIOs.
 
