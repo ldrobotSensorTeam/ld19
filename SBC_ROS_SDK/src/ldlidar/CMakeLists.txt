@@ -140,7 +140,7 @@ SET(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 file(GLOB  MAIN_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 add_executable(ldlidar  ${MAIN_SRC})
-target_link_libraries(ldlidar pthread udev wiringPi  ${catkin_LIBRARIES})
+target_link_libraries(ldlidar pthread  ${catkin_LIBRARIES})
 
 
 ## Declare a C++ library
