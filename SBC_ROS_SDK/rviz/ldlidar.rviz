@@ -74,7 +74,7 @@ Visualization Manager:
       Size (Pixels): 5
       Size (m): 0.009999999776482582
       Style: Points
-      Topic: /LiDAR/LD06
+      Topic: /LiDAR/LD19
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
