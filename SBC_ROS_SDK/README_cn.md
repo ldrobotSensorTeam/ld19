@@ -4,7 +4,7 @@
 
 ## 概述
 
-在`PC_ROS_SDK`目录包含以下内容：
+在`SBC_ROS_SDK`目录包含以下内容：
 
 ``` 
 /doc/
@@ -16,7 +16,7 @@
 
 - `src`包含SDK源码
 
-- `doc`下是Raspbian_ROS[**开发手册**](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf)（LD19与LD06手册通用，名称有差异）
+- `doc`下是Raspbian_ROS[开发手册](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf)（LD19与LD06手册通用，名称有差异）
 
 - `rviz`的内容是使用rviz进行雷达数据的可视化
 
@@ -60,7 +60,7 @@ LD19采用ZH1.5T-4P 1.5mm接口。其中PWM信号**可以悬空不接**，此时
 
 ### 使用流程
 
-1. 将文件夹`PC_ROS_SDK/src`与`PC_ROS_SDK/rviz`复制保存在某空白目录A下。
+1. 将文件夹`SBC_ROS_SDK/src`与`SBC_ROS_SDK/rviz`复制保存在某空白目录A下。
 2. 在目录A下打开终端，运行`catkin_make`命令进行编译。
 3. 在编译成功后运行`source ./devel/setup.bash`添加环境变量。
 4. 调用命令`roslaunch ldlidar ld19.launch`运行SDK，如果显示successfully则成功。
