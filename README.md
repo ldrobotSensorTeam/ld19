@@ -6,7 +6,7 @@
 >
 > 基于ROS，此SDK让LD19雷达可以在多平台（PC、SBC）下进行开发。
 >
-> <a id="https://github.com/HuXioAn/ld19/blob/master/README.md#english-version">English Version Here</a>
+> [English Version Here](https://github.com/HuXioAn/ld19/blob/master/README.md#english-version)
 
 # 概述
 
