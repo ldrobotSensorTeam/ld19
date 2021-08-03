@@ -41,7 +41,7 @@
 
 ----
 
-## [English Version:] {#en}
+## English Version:
 
 > This repositorise contains the SDK for LD19 DTOF radar.
 >
