@@ -24,7 +24,7 @@ The contents of directory `PC_ROS_SDK` are listed below:
 + `doc` contains the user manual in English and Chinese (LD19 shares the same documents with LD06, pls be awarded)
 + `rviz` contains the file which is used to configure the visualization of radar data
 
-This SDK has been tested in Ubuntu 18.04 with Melodic and Ubuntu 16.04 with    Kinetic.
+This SDK has been tested in Ubuntu 18.04 with Melodic, Ubuntu 16.04 with  Kinetic on PC and Noetic in Ubuntu 20.04 Server on Raspberry Pi3B+.
 
 ## Usage
 

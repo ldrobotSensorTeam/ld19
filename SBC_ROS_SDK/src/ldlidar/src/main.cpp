@@ -3,7 +3,7 @@
 #include <string.h>
 #include <iostream>
 //#include <wiringPi.h>
-#include <softPwm.h>
+//#include <softPwm.h>
 #include "cmd_interface_linux.h"
 #include <ros/ros.h>
 #include <sensor_msgs/LaserScan.h>
