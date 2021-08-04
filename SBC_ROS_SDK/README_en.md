@@ -21,7 +21,7 @@ The contents of directory SBC_ROS_SDK` are listed below:
 + `doc` contains the [Raspbian User manual](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf) in English (LD19 shares the same documents with LD06, pls be awarded)
 + `rviz` contains the file which is used to configure the visualization of radar data
 
-This SDK has been tested on Raspberry Pi 3B+ with Kinetic and Raspbian 9.
+This SDK has been tested on Raspberry Pi 3B+ with Kinetic in Raspbian 9 and Noetic in Ubuntu 20.04 Server.
 
 ## Usage
 

@@ -20,7 +20,7 @@
 
 - `rviz`的内容是使用rviz进行雷达数据的可视化
 
-本SDK使用搭载Kinetic和Raspbian 9的树莓派3B+上测试通过。
+本SDK使用搭载Kinetic和Raspbian 9以及Noetic和Ubuntu20.04 Server的树莓派3B+上测试通过。
 
 ## 使用方法
 
