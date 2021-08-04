@@ -16,7 +16,7 @@
 
 - `src`包含SDK源码
 
-- `doc`下是Raspbian_ROS[开发手册](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf)（LD19与LD06手册通用，名称有差异）
+- `doc`下是Raspbian_ROS[开发手册](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf)（LD19与LD06手册通用，名称有差异）
 
 - `rviz`的内容是使用rviz进行雷达数据的可视化
 
@@ -50,7 +50,7 @@ LD19采用ZH1.5T-4P 1.5mm接口。其中PWM信号**可以悬空不接**，此时
 
 此SDK需要上位机安装好ROS，由于种种原因，在SBC上安装ROS会遇到比较多的困难，可以考虑使用Ubuntu系统，或者直接使用他人编译的已经安装ROS的系统镜像。开发手册内描述的ROS安装方法为下载源码本地编译，需要较好的网络条件。
 
-树莓派需要在系统配置页面使能串口，不然将不会在`/dev/`下看到对应的tty设备。具体操作参见`doc`目录下使用手册第四章：[START SERIAL ttyS0](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf)。
+树莓派需要在系统配置页面使能串口，不然将不会在`/dev/`下看到对应的tty设备。具体操作参见`doc`目录下使用手册第四章：[START SERIAL ttyS0](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf)。
 
 开发手册中提到的`WiringPi`与`udev`库并不是必须的，可以跳过安装。
 
@@ -76,5 +76,5 @@ LD19采用ZH1.5T-4P 1.5mm接口。其中PWM信号**可以悬空不接**，此时
 
 ## 使用实例
 
-一个使用rviz将雷达数据实时可视化的例子，请参阅[开发手册第五章](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf)。
+一个使用rviz将雷达数据实时可视化的例子，请参阅[开发手册第五章](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf)。
 

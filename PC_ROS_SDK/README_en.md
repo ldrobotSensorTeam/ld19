@@ -32,7 +32,7 @@ This SDK has been tested in Ubuntu 18.04 with Melodic, Ubuntu 16.04 with  Kineti
 
 > LDRobot LD19 radar, CP2102 USB to UART Bridge
 
-Link LD19 to the upper computer according to the diagram below(could be found in the section Communication Interface of [user manual](./doc/LDROBOT_LD06_Development manual_v1.0_en.pdf)):
+Link LD19 to the upper computer according to the diagram below(could be found in the section Communication Interface of [user manual](./doc/LDROBOT_LD06_Development_manual_v1.0_en.pdf)):
 
 ![schematic](../pic/en_conne.png)
 
@@ -46,7 +46,7 @@ The SDK requires installed ROS, Ubuntu:18.04、16.04，ROS: Melodic、Kinetic ar
 
 The whole process could be conducted with a normal user's account, however, the **authority of using the ttyUSB device is a necessity**.
 
-For setting the access please refer to the [User Manual Section 5.1: Set Access](./doc/LDROBOT_LD06_Development manual_v1.0_en.pdf)
+For setting the access please refer to the [User Manual Section 5.1: Set Access](./doc/LDROBOT_LD06_Development_manual_v1.0_en.pdf)
 
 So far, all the preparation is done.
 
@@ -68,5 +68,5 @@ You can make use of `nohup` to let the SDK runs in the background.
 
 ## Example
 
-An example of using rviz to visualize real time data from LD19 is in the [chapter 5 of User Manual](./doc/LDROBOT_LD06_Development manual_v1.0_en.pdf).
+An example of using rviz to visualize real time data from LD19 is in the [chapter 5 of User Manual](./doc/LDROBOT_LD06_Development_manual_v1.0_en.pdf).
 

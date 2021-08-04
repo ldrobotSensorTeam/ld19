@@ -18,7 +18,7 @@ The contents of directory SBC_ROS_SDK` are listed below:
 ```
 
 + `src` contains the source code of SDK
-+ `doc` contains the [Raspbian User manual](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf) in English (LD19 shares the same documents with LD06, pls be awarded)
++ `doc` contains the [Raspbian User manual](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf) in English (LD19 shares the same documents with LD06, pls be awarded)
 + `rviz` contains the file which is used to configure the visualization of radar data
 
 This SDK has been tested on Raspberry Pi 3B+ with Kinetic in Raspbian 9 and Noetic in Ubuntu 20.04 Server.
@@ -51,7 +51,7 @@ Attatch `GND` and `P5V` to corresponding Pins on the SBC, `TX` to the UART RX GP
 
 The SDK requires installed ROS, but you may encounter some problems if you manually install ROS on SBC. Advice is that you can try Ubuntu Mate or download system imager with compiled ROS. You can refer to the Manual for detailed direction of installation.
 
-Raspberry Pi's Serial peripheral needs to be enabled, otherwise there won't be corresponding tty device in directory `/dev`, refer to [chapter 4 of Manual](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf) for details.
+Raspberry Pi's Serial peripheral needs to be enabled, otherwise there won't be corresponding tty device in directory `/dev`, refer to [chapter 4 of Manual](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf) for details.
 
 The `wiringPi` and `udev` libraries mentioned in the Manual are unnecessary. They could be ignored.
 
@@ -79,5 +79,5 @@ You can make use of `nohup` to let the SDK runs in the background.
 
 ## Example
 
-An example of using rviz to visualize real time data from LD19 is in the [chapter 5 of User Manual](./doc/LDRobot_LD19 Raspbian User manual_V2.3.pdf).
+An example of using rviz to visualize real time data from LD19 is in the [chapter 5 of User Manual](./doc/LDRobot_LD19_Raspbian_User_manual_V2.3.pdf).
 
