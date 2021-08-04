@@ -31,7 +31,7 @@ This SDK has been tested on Raspberry Pi 3B+ with Kinetic in Raspbian 9 and Noet
 
 Link LD19 to the upper computer according to the diagram below:
 
-![schematic](G:%5CLD06%5Cgithub%5Cld19%5Cpic%5Cen_conne.png)
+![schematic](../pic/en_conne.png)
 
 LD19 adopt ZH1.5T-4P 1.5mm connector. The PWM signal, namely the second pin, need not to be attached to certain GPIO if you're not going to control the revolving speed.
 
