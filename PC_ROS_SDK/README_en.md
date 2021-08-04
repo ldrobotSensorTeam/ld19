@@ -60,7 +60,7 @@ So far, all the preparation is done.
 
 **Notice**
 
-Every time you open a terminal, step 3 should be performed before step 4. There's a way to simplify, add `source ./devel/setup.bash` to `~/bashrc`, then you can ignore step 3 every time start a new terminal.
+Every time you open a terminal, step 3 should be performed before step 4. There's a way to simplify it, add `source ./devel/setup.bash` to `~/.bashrc`, then you can ignore step 3 every time start a new terminal.
 
 If the SDK can't find the radar, it will print `open error`, but it won't exit.
 
