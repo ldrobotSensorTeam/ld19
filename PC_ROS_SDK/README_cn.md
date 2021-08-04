@@ -26,7 +26,7 @@
 
 - `rviz`的内容是使用rviz进行雷达数据的可视化
 
-本SDK使用Ubuntu18.04下的Melodic以及16.04下的Kinetic测试通过。
+本SDK使用Ubuntu18.04下的Melodic，16.04下的Kinetic以及搭载Noetic和Ubuntu20.04 Server的树莓派3B+下测试通过。
 
 ## 使用方法
 
